@@ -8,7 +8,7 @@ const batteryListStyle = {
 class SelectBatteryForm extends React.Component {
     render() {
         return (
-            <form action="/achilles" method="POST">                    
+            <form action="/achilles" method="POST" className="pure-form">                    
                 <h2>Smoke Test Batteries</h2>
                     <BatteryList />
                 <h2>
