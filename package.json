@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.production.js",
     "dev": "node webpack-dev-server.js & PORT=3001 nodemon start.js -e js,jsx",
+    "windev": "node webpack-dev-server.js & PORT=3001 nodemon start.js -e js,jsx",
     "lint": "eslint ./*.js ./**/*.js",
     "start": "node start.js"
   },
