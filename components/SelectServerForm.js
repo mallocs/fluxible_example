@@ -5,7 +5,7 @@ class SelectServerForm extends React.Component {
         return (
             <form action="/achilles" method="POST" onsubmit="document.getElementById('changeServerButton').disabled=true;">
             <h2>
-            Current Test Server: <select size="1" name="testingServer">
+            Current Test Server: <select size="1" name="testingServer" defaultValue="TEST07">
                 <option value="TEST01">Test01</option>
                 <option value="TEST07" >Test07</option>
             </select>
