@@ -1,0 +1,11 @@
+
+
+<div ng-controller="MainCtrl">
+    <form action="/achilles" method="POST" onsubmit="document.getElementById('changeServerButton').disabled=true;">
+    Current Test Server: <select size="1" name="testingServer">
+        <option ng-repeat="testingServer in testingServers" value={{testingServer.value}}>{{testingServer.value}}</option>
+        </select>
+    <input id="changeServerButton" type="submit" value="Change Server" />
+    </form>
+</div>
+
